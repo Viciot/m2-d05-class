@@ -1,0 +1,32 @@
+{{!--- 
+    TOC
+---}}
+
+
+{{!--- 
+  when you use POST all the input names will become body fields that you can read in Express
+---}} 
+
+{{!---
+This form takes me to 
+http://localhost:3000/search
+---}}
+
+<form action="/search" method="POST">
+  <label>
+    City
+    <input type="text" name="city">
+  </label>
+  
+  <label>
+  	Start-Date
+  	<input type="date" name="start-date">
+  </label>
+  
+  <label>
+  	End-Date
+  	<input type="date" name="end-date">
+  </label>
+  
+  <button type="submit">SEARCH</button>
+</form>

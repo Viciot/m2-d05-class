@@ -6,7 +6,8 @@
  const express = require("express");
  const hbs = require("hbs");
  const app = express();
- const PORT = 3000;
+ const path = require('path')
+ const PORT = 3001;
  
  // SET THE TEMPLATE ENGINE
  app.set("view engine", "hbs");
@@ -23,7 +24,9 @@
  // ROUTES
  app.get("/", (req, res) => {
    console.log(req);
-   res.send("You reached the root of the server");
+   res.render("index");
  });
 
- app.listen(3000)
+
+
+ app.listen(PORT)
