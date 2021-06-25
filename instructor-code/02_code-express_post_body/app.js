@@ -16,6 +16,10 @@
  // SET THE STATIC FOLDER FOR PUBLIC FILES
  app.use(express.static(__dirname + "/public"));
  
+ // This config is necessary to read data from the body and it will ba available for you in Express under body object
+ app.use(express.json())
+ app.use(express.urlencoded())
+
  // REGISTER THE PARTIAL
  hbs.registerPartials(__dirname + "/views/partials");
  
