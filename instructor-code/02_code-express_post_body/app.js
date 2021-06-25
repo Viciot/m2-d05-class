@@ -16,6 +16,12 @@
  // SET THE STATIC FOLDER FOR PUBLIC FILES
  app.use(express.static(__dirname + "/public"));
  
+ // This config is necessary to read data from the body and it will ba available for you in Express under body object
+ app.use(express.json())
+ app.use(express.urlencoded({
+  extended: true
+}))
+
  // REGISTER THE PARTIAL
  hbs.registerPartials(__dirname + "/views/partials");
  
@@ -28,7 +34,10 @@
  });
 
  app.post("/search", (req, res)=> {
-   res.render('search')
+   const city = req.body.city
+   const startDate = req.body["start-date"]
+   const endDate = req.body["end-date"]
+   res.render('search', {city, startDate, endDate})
  })
 
 
