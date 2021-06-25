@@ -32,9 +32,7 @@
   app.get("/search", (req,res) => {
     
     const city = req.query.city
-    
     const startDate = req.query['start-date']
-    
     const endDate = req.query['end-date']
     res.render("search", {city, startDate, endDate});
 
