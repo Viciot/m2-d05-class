@@ -18,7 +18,7 @@
  app.use(express.static(path.join(__dirname, "/public")));
  
  // REGISTER THE PARTIAL
- hbs.registerPartials(path.join(__dirname, "views/partials"));
+ hbs.registerPartials(path.join(__dirname, "/views/partials"));
 
  // ROUTES
  // localhost:3000?q=how%20are%20you&username=Marco
