@@ -5,34 +5,23 @@
 
 ## Lab 
 
-[Link to LAB](# lab)
+[Express Spotify](https://github.com/ironhack-labs/lab-express-spotify)
 
 
 ## Class
 
-- [Link Topic 1](# .md Topic 1)
+- Express GET Mehod
 
-- [Link Topic 1] (# .md Topic 2)
-
-- [Link Topic 1] (# .md Topic 3)
-
-- etc...
+- Express POST Method
 
 
 ## Self Guided
 
-[Link to Self Guided](# Self Guided)
-
-
-## Assesment 
-
-[Link to Assesment](# assesment)
+[Asyncronous Node](https://my.ironhack.com/lms/courses/course-v1:IRONHACK+WDFT52+202105_BCN/modules/ironhack-course-chapter_4/units/ironhack-course-chapter_4-sequential_4-vertical_5)
 
 
 ## Extra Resources
 
-- [Link to Extra Resource 1](# Extra Resources 1)
+- [Event Loop Video Tut](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 
-- [Link to Extra Resource 2](# Extra Resources 2)
-
-- [Link to Extra Resource 3](# Extra Resources 3)
+- [Node Event Loop Docs](https://nodejs.dev/the-nodejs-event-loop)
