@@ -27,6 +27,10 @@
    res.render("index");
  });
 
+ app.post("/search", (req, res)=> {
+   res.render('search')
+ })
+
 
 
  app.listen(PORT)
